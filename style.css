@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 1515px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav button{
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+nav  button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+main {
+    background-image: url("./IMAGE.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 736px;
+    position: relative;
+}
+
+.maintext{
+    position: absolute;
+    left: 450px;
+    top: 400px;
+    text-align: center;
+    width: 600px;
+    height: 209px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+main h1{
+    font-size: 3.5em;
+}
+
+section{
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.mainfoot{
+    position: absolute;
+    left: 1150px;
+    top: 700px;
+}
+
+.product{
+    background-image: url("./IMAGE\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 576px;
+   color: white;
+   height: 600px;
+}
+
+.product button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.architecture{
+    background-image: url("./IMAGE\ \(2\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 576px;
+   color: white;
+   height: 600px;
+}
+
+
+.architecture button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.drone{
+    background-image: url("./IMAGE\ \(3\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 576px;
+   color: white;
+   height: 600px;
+}
+
+
+.drone button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.wildlife{
+    background-image: url("./IMAGE\ \(4\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 576px;
+   color: white;
+   height: 600px;
+}
+
+
+.wildlife button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.section2{
+    background-image: url("./IMAGE\ \(5\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+
+}
+
+.bb{
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+}
+
+.sectext{
+    left: 1120px;
+    top: 250px;
+    position: absolute;
+    color: white;
+}
+
+
+.section3 button{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
